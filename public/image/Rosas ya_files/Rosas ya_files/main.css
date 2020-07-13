@@ -1,0 +1,1476 @@
+@font-face {
+font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue'), url('../fonts/helvetica-neue-thin.ttf');
+}
+@font-face {
+font-family: "Autery";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Autery'), url('../fonts/Autery.ttf');
+}
+@font-face {
+font-family: "Autery";
+    font-style: normal;
+    font-weight: normal;
+    src: local('Autery'), url('../fonts/Autery.otf');
+}
+
+
+.item img{
+	width: 25px;
+}
+.linea-top {
+    width: 55%;
+    border: 4.5px solid #FFFFFF;
+    position: absolute;
+    z-index: 1;
+}
+
+.linea-boton {
+    width: 100%;
+    border: 4.5px solid #FFFFFF;
+    position: absolute;
+    z-index: 1;
+}
+p.woocommerce-shipping-destination {
+    display: none!important;
+}
+form.woocommerce-shipping-calculator {
+    display: none!important;
+}
+.linea-right {
+    height: 250px;
+    border: 4.5px solid #FFFFFF;
+    position: absolute;
+    z-index: 1;
+}
+.main-banner__item{
+width: 100%;	
+}
+.main-banner__text {
+      width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+ 
+}
+
+.main-logo__item img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-color {
+    width: 100%;
+    height: 15px;
+    background: #D22647 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbar {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 50px 50px;
+    opacity: 1;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    margin-top: 25px;
+    width: 100%;
+    justify-content: center;
+    top: 91px;
+    left: 172px;
+}
+
+.nav-link {
+    text-align: center;
+    font: Regular 40px/48px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #707070B1;
+}
+
+.main-banner__title p {
+    margin: 0px;
+}
+
+.main-banner__title {
+    text-align: center;
+       font-size: 25px;
+    font-family: Helvetica Neue;
+   
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+}
+
+.main-banner__subtitle {
+    text-align: center;
+    font-family: Autery;
+    font-weight: Regular;
+    font-size: 65px;
+    letter-spacing: 0px;
+    color: #D22647;
+}
+.main-banner__subtitle-card  {
+	
+    text-align: center;
+    font-family: Autery;
+    font-weight: Regular;
+        font-size: 100px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.main-banner__img {
+    margin-top: -100px;
+}
+
+.main-banner__img img {
+    width: 100%;
+        height: 110vh;
+	
+}
+
+.main-banner__imgg{
+	padding-bottom: 5rem;
+}
+
+.main-banner__imgg img {
+    width: 100%;
+            height: 66vh;
+	object-fit: contain;
+}
+
+.main-servi {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.main-service {
+    gap: 2rem;
+    padding: 0px 6rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-sect {
+    margin-top: -98px;
+    margin-bottom: -55px;
+}
+
+.main-service {
+    display: grid;
+}
+
+.main-service__img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-service__img img {
+    width: 70%;
+    height: 105px;
+}
+
+.main-service__item {
+    display: flex;
+    background: #D22647 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 12px #C1BBBB;
+    border-radius: 20px;
+}
+
+.main-service__item2 {
+    display: flex;
+    background: #8B962F 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 12px #C1BBBB;
+    border-radius: 20px;
+}
+
+.main-service__content {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Regular;
+    font-size: 25px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.main-product-grid {
+    gap: 1rem;
+    padding: 0px 3rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-product-grid {
+    display: grid;
+}
+
+.main-product__item {
+    justify-content: center;
+    text-align: center;
+}
+
+.main-product-destacado {
+	
+    background-color: #ded2d7;
+    width: 100%;
+    height: 112vh;
+    background: transparent url('../img/564444-PL47KW-415-min.png') 0% 0% no-repeat padding-box;
+}
+
+.main-product__img img {
+    box-shadow: 3px 3px 8px #00000036;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-product__text {
+    padding-top: 90px;
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-product__title p {
+    margin: 0px;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+}
+
+.main-product__content {
+    padding-top: 10px;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.main-product__content p {
+    margin: 0;
+}
+
+.main-product__subtitle {
+    text-align: center;
+    font-family: Autery;
+    font-size: 45px;
+    font-weight: Regular;
+    letter-spacing: 0px;
+    color: #D22647;
+}
+
+.main-about {
+
+    width: 100%;
+    height: 50vh;
+    background: transparent url('../img/Imagen\ 1.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+}
+
+.main-about-title {
+    padding-top: 8%;
+    text-align: center;
+    font: Bold Italic 45px/45px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 5px -2px 4px #000;
+    opacity: 1;
+}
+
+.main-news {
+    width: 100%;
+    height: auto;
+}
+
+.main-news__item {
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-news-title {
+   text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    color: #D22647;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 100%;
+    padding-top: 58px;
+    padding-right: 53rem;
+}
+
+.line1 {
+    padding-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.line {
+    border: 2px solid #DBDBDB;
+    opacity: 1;
+}
+
+.main-vendidos {
+    width: 100%;
+    height: 75vh;
+}
+
+.main-vendidos-title {
+    text-align: center;
+    font: Thin 45px/93px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 180px;
+    padding-top: 58px;
+}
+
+.main-clientes__img {
+    width: 100%;
+    height: 156vh;
+    background: transparent url('../img/564444-PL47KW-415-min.png') 0% 0% no-repeat padding-box;
+}
+
+.main-clientes__title p {
+   margin: 0px;
+    padding-top: 55px;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+   
+    color: #D22647;
+    text-transform: uppercase;
+}
+
+.main-clientes__subtitle {
+    text-align: center;
+    font-family: Autery;
+    font-size: 55px;
+    font-weight: Regular;
+    letter-spacing: 0px;
+    color: #D22647;
+}
+
+.testimonial {
+    padding-top: 20px;
+    max-width: 100%;
+    margin: 0 auto !important;
+    letter-spacing: 0px;
+    color: #7C7C7C;
+}
+
+.text-content {
+    text-align: center;
+    font-family: Medium Italic;
+    font-size: 25px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #686868;
+}
+
+.text-black {
+    text-align: center;
+    font-family: Light;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #7C7C7C;
+}
+
+.main-descripcion {
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 45%;
+    height: 110px;
+    position: absolute;
+}
+
+
+.container-banner__text {
+       width: 100%;
+    padding-right: 450px;
+    margin-top: 125px;
+}
+
+.container-banner__text-card {
+	justify-content: center;
+    text-align: center;
+	width: 100%;
+       margin-top: -50px;
+    margin-right: 365px;
+    margin-bottom: 55px;
+}
+
+.container-grid {
+    letter-spacing: NaNpx;
+    color: #D22647;
+    opacity: 1;
+}
+
+.contact-form {
+    width: 60%;
+    margin-left: auto;
+    padding: 6rem 4rem 5rem 8rem;
+    background: #FFFFFF 0% 0%;
+    box-shadow: -5px -5px 15px #00000029;
+    border-radius: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contact__title {
+    text-align: center;
+    font-family:  Helvetica Neue;
+    font-size: 25px;
+    color: #D22647;
+    text-transform: uppercase;
+}
+.slick-next {
+        right: -20px;
+    top: 115px;
+}
+
+.slick-prev {
+ top: 115px;
+    left: -70px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #cd416c;
+  font-family: 'FontAwesome';
+}
+
+.slick-prev:before {
+content: "\f104";
+    font-size: 55px;
+}
+
+.slick-next:before {
+     content: "\f105";
+    font-size: 55px;
+}
+
+.main-contact__subtitle {
+    text-align: center;
+    font-family: Autery;
+    font-size: 58px;
+    font-weight: Allessa Script Free Sample;
+    color: #D22647;
+}
+
+.form-group {
+    width: 500px;
+}
+
+.form-group input ::placeholder {
+    color: #D22647!important;
+}
+
+button.single_add_to_cart_button.button.alt {
+    margin-top: 1rem;
+}
+
+.enviar {
+    box-shadow: 5px 5px 5px #00000030;
+    border: 0;
+    border-radius: 12px;
+    background: #D22647 0% 0% no-repeat;
+    color: white;
+    width: 150px;
+    font-family: Bold;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+}
+
+.main-footer {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    background: #D22647 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+.woocommerce-terms-and-conditions-wrapper {
+    display: none;
+}
+
+.form-row {
+    margin-top: 35px;
+}
+
+.container-footer-grid {
+    margin-top: 41px;
+    display: grid;
+    gap: 1rem;
+    padding: 0px 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.site-map {
+    margin-top: 70px;
+    list-style: none;
+}
+.item{
+	width: 100%;
+}
+.item a {
+    line-height: 35px;
+    font-family: Avenir-Medium;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main-news-grid {
+    /* display: grid; */
+    gap: 1rem;
+    padding: 20px 7rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-news__img img {
+    width: 100%;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 8px #0000004D;
+    object-fit: cover;
+    object-position: center;
+}
+.main-news__content {
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: NaNpx;
+    color: #7C7C7C;
+}
+
+.btnnn {
+    padding-top: 0px;
+    background: #D22647 0% 0% no-repeat;
+    border-radius: 22px;
+    color: white;
+    height: 33px;
+    width: 120px;
+    font-family: Bold;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+}
+
+.main-news__content p {
+    margin: 0;
+}
+
+.price {
+    font-family: Helvetica Neue;
+    font-size: 23px;
+    font-weight: medium;
+    color: #7C7C7C;
+}
+
+.news-text {
+    font-family: Helvetica Neue;
+    font-size: 20px;
+    font-weight: Bold;
+    color: #7C7C7C;
+}
+
+ol.flex-control-nav.flex-control-thumbs {
+    display: none;
+}
+
+.main-product__icon img {
+    width: 160px;
+}
+
+.testimonio_slick.slick-initialized.slick-slider.slick-dotted {
+    margin-bottom: 143px!important;
+}
+
+.main-footer__img {
+    text-align: center;
+}
+
+.main-footer__img img {
+    width: 245px;
+}
+.slick-dots li.slick-active button:before {
+    color: #8B962F;
+    font-size: 1.2rem;
+
+}
+
+.slick-dots li button:before {
+    color: #D22647;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+.wpcf7-response-output {
+    background: #fff!important;
+}
+
+.pagination-product {
+	margin:20px 0;
+}
+
+.pagination-product ul {
+	list-style:none;
+	text-align: center;
+}
+
+.pagination-product ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.pagination-product ul li a {
+	display:block;
+	padding:10px 20px;
+	color:#fff;
+	background:#D22647 0% 0% no-repeat padding-box;
+	text-decoration: none;
+}
+
+.pagination-product ul li a:hover {
+	background:rgba(253, 117, 144, 1);
+}
+
+.pagination-product ul li .active {
+	background:#D22647 0% 0% no-repeat padding-box;
+	font-weight:bold;
+}
+
+.flex-control-thumbs img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+#news-product {
+    margin-bottom: 0rem;
+}
+ .main-banner__text {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 180px;
+}
+
+@media ( max-width: 1024px) {
+	
+	.container-banner__text-card {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-right: 365px;
+	margin-bottom: 55px;
+	}
+    .main-banner__text {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 180px;
+}
+	
+	.main-banner__img img {
+    width: 100%;
+    height: 100vh;
+		
+	}
+	.main-banner__text {
+   width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 172px;
+	}
+		.main-banner__imgg img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+	.main-banner__title{
+		font-size: 19px;
+	}
+	.main-banner__subtitle{
+		    font-size: 45px;
+	}
+	
+	.main-banner__subtitle-card{
+		    font-size: 45px;
+	}
+    .main-news__item {
+        width: 220px;
+    }
+    .container-footer-grid {
+        margin-top: 0px;
+    }
+    .main-about-title {
+        padding-top: 5%;
+    }
+    .main-servi {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .main-product__text {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+    .contact-form {
+        padding: 2rem 1rem 1rem 4rem;
+    }
+    .contact-formulario {
+        padding-top: 93px;
+    }
+    .main-descripcion {
+        margin-left: 53px;
+    }
+}
+
+@media (max-width: 990px) {
+	.container-banner__text-card {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 55px;
+}
+    button.navbar-toggler {
+        margin-left: auto;
+    }
+    .main-banner__img img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+	.main-banner__imgg img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+    .main-servi {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .main-product__text {
+        padding-bottom: 0px;
+    }
+	.main-banner__subtitle {
+		font-size: 40px;
+	}
+	.main-banner__title {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container-banner__text-card{
+		    padding-top: 175px;
+		
+	}
+	.main-product-grid {
+    gap: 1rem;
+    padding: 0px 7rem;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.main-news-title{
+		padding-right: 0rem;
+	}
+	.main-banner__subtitle-card {
+		font-size: 90px;
+	}
+	.container-banner__text {
+    width: 100%;
+    padding-right: 285px;
+		margin-top: 125px;
+	}
+	.main-banner__img img {
+    width: 100%;
+    height: 100vh;
+		object-fit: fill;
+	}
+	.main-banner__imgg img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+	.main-about-title {
+    text-align: center;
+    font: Bold Italic 30px/40px Helvetica Neue;
+    color: #FFFFFF;
+}
+	.main-banner__title {
+		font-size: 15px;
+	}
+	.main-banner__subtitle {
+    font-size: 40px;
+}
+    .main-banner__text {
+		    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 160px;
+	}
+	.form-group {
+        width: 375px;
+    }
+    .main-contact__title {
+        font-size: 23px;
+    }
+    .main-contact__subtitle {
+        font-size: 37px;
+    }
+    .main-clientes__title {
+        font-size: 45px;
+    }
+    .main-clientes__subtitle {
+        font-size: 47px;
+    }
+    .contact-formulario {
+        padding-top: 86px;
+    }
+    .testimonial {
+        padding-top: 0px;
+    }
+    .text-content {
+        font-size: 20px;
+    }
+    .text-black {
+        font-size: 15px;
+    }
+    .main-service {
+        gap: 1rem;
+        padding: 0px 2rem;
+    }
+    .main-product__title p {
+        font-size: 15px;
+    }
+    .main-product__subtitle {
+        font-size: 35px;
+    }
+    .main-product__img img {
+        height: 32vh;
+        width: 155px;
+    }
+    .main-product__icon {
+        padding-top: 24px;
+    }
+    .main-logo__item img {
+        width: 105px;
+        height: 89px;
+    }
+    .main-clientes__img {
+        width: 100%;
+        height: auto;
+        background: transparent url(../img/564444-PL47KW-415-min.png) 0% 0% no-repeat padding-box;
+    }
+}
+
+@media(max-width: 565px) {
+	.main-news-title {
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    color: #D22647;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 100%;
+	padding-top: 1rem;
+		padding-right: 0rem;
+    }
+    .testimonio_slick.slick-initialized.slick-slider.slick-dotted {
+        margin-bottom: 1rem!important;
+    }
+    .main-news-grid {
+ 
+        padding: 0px 4rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+	.container-banner__text {
+    width: 100%;
+    padding-right: 200px;
+    margin-top: 125px;
+}
+	.section-product{
+		    background-color: #d4d4d4;
+	}
+	.main-news-grid {
+   padding: 20px 7rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+.slick-prev {
+    top: 115px;
+	left: -50px;
+	}
+	.slick-next {
+    right: -50px;
+		top: 113px;
+	}
+
+	.main-banner__text {
+         width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 175px;
+	}
+    .main-product-destacado {
+            height: 215vh;
+    }
+    .main-product__icon img {
+        width: 120px;
+    }
+    .main-service {
+        gap: 0.5rem;
+        padding: 0px 1rem;
+    }
+    .main-service__item {
+        display: block;
+    }
+    .main-service__item2 {
+        display: block;
+    }
+    .main-service__img img {
+        width: 35%;
+        height: 45px;
+    }
+    .main-service__img {
+        padding-top: 10px;
+    }
+    .main-service__content {
+        padding-top: 0px;
+    }
+    .main-product__img img {
+        height: 34vh;
+        width: 212px;
+    }
+    .main-product-grid {
+        gap: 2rem;
+        padding: 0px 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-about-title {
+           padding-top: 7%;
+    font: Bold Italic 28px/35px Helvetica Neue;
+    padding-bottom: 7%;
+    }
+    .form-group {
+        width: 270px;
+    }
+    .contact-form {
+        padding: 2rem 3rem 2rem 4rem;
+    }
+    .main-descripcion {
+        margin-left: 0px;
+    }
+    .contact-formulario {
+        padding-top: 130px
+    }
+    .container-footer-grid {
+        padding: 0px 1rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main-footer__img img {
+        width: 180px;
+    }
+    .main-footer__img {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .site-map {
+        margin-top: 59px;
+    }
+    .service-sect {
+        margin-top: -190px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 480px) {
+	.main-service {
+    display: block;
+}
+.main-banner__imgg img {
+    width: 100%;
+    height: 40vh!important;
+    object-fit: cover;
+    object-position: center;
+}
+.front-page .main-banner__text {
+    width: 100%;
+    padding-right: 1px;
+    margin-top: 230px!important;
+}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+	    float: right;
+    width: 100%!important;
+    text-align: center;
+}
+li.product {
+    text-align: center;
+}
+.main-about {
+    width: 100%;
+    height: auto;
+    background: transparent url(../img/Imagen\ 1.png) 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+}
+.slick-slide {
+    float: left;
+    height: auto;
+    min-height: 1px;
+    display: none;
+}
+.nav-item {
+    margin-left: 0px;
+}
+	.main-servi {
+    position: relative;
+}
+	.container-banner__text-card {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+		margin-bottom: 55px;
+	}
+	.main-banner__subtitle-card {
+    font-size: 70px;
+}
+	.main-banner__text {
+	    width: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+}
+	.main-banner__title {
+    font-size: 20px;
+}
+	.main-banner__subtitle {
+    font-size: 55px;
+}
+	
+	.main-product-destacado {
+		height: 215vh;
+	}
+	.main-product__text {
+		padding-top: 0px;
+	}
+	.front-page .container-banner__text {
+    width: 100%;
+    padding-right: 1px;
+    margin-top: 80px
+}
+	.main-news-grid {
+ 
+    padding: 0px 4rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+	.slick-prev {
+    top: 115px;
+		left: -50px;
+	}
+	.slick-next {
+    right: -50px;
+		top: 113px;
+	}
+
+
+    .container-footer-grid {
+        padding: 0px 0rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .front-page .main-footer {
+        width: 100%;
+        height: 80vh;
+        margin-top: 11rem;
+    }
+    .main-footer__img img {
+        width: 185px;
+    }
+    .main-footer__img img {
+        margin-right: 25px;
+    }
+    .site-map {
+        margin-top: 15px;
+    }
+    .item {
+        width: 100%;
+    }
+    .item a {
+        font-size: 22px;
+        line-height: 37px;
+    }
+    .contact-form {
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 50px 50px 0px 0px;
+        padding: 7rem 5rem 2rem 5rem;
+        margin-bottom: -10rem;
+    }
+    button.single_add_to_cart_button.button.alt {
+        margin-top: 1rem;
+    }
+    .product-section {
+        padding: 1rem!important;
+    }
+    .form-group {
+        width: 370px;
+    }
+    .contact-formulario {
+        padding-top: 80px;
+    }
+    .main-descripcion {
+		width: 100%;
+       
+        margin-top: 10px;
+    }
+    .main-contact__title {
+        margin: 0px;
+    }
+		.main-banner__img img {
+			width: 100%;
+			height: 100vh;
+			object-fit: cover;
+     }
+}
+
+@media(max-width: 375px) {
+	.container-banner__text-card{
+		padding-top: 70px;
+	}
+	.main-banner__subtitle-card {
+    font-size: 70px;
+}
+	
+
+	.main-banner__title {
+    font-size: 20px;
+}
+	.main-banner__subtitle {
+    font-size: 55px;
+}
+    .main-product-destacado {
+        background-color: #ded2d7;
+        height: 218vh;
+    }
+	.main-news-grid {
+    padding: 27px 4rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+	.slick-prev {
+    top: 115px;
+		left: -50px;
+	}
+.slick-next {
+    right: -50px;
+	top: 113px;
+	}
+
+    .main-product-grid {
+        gap: 1rem;
+        padding: 0px 0rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-product__img img {
+        height: 34vh;
+        width: 240px;
+    }
+    .main-banner__img img {
+        width: 100%;
+        height: 85vh;
+        object-fit: fill;
+    }
+	  .main-banner__imgg img {
+        width: 100%;
+        height: 85vh;
+        object-fit: none;
+    }
+    .main-service {
+        display: block;
+    }
+    .main-contact__title {
+        font-size: 17px;
+    }
+    .main-contact__subtitle {
+        font-size: 32px;
+    }
+    .main-descripcion {
+       margin-top: 22px;
+    width: 100%;
+    }
+    .main-contact__title p {
+        margin: 0px;
+    }
+    .main-footer__img img {
+        margin-right: 0px;
+    }
+    .item {
+        width: 304px;
+    }
+    .main-footer__img img {
+        width: 233px;
+    }
+    .form-group {
+        width: 310px;
+    }
+    .main-clientes__img {
+        width: 100%;
+        height: 143vh;
+    }
+    .service-sect {
+        margin-top: -95px;
+        margin-bottom: -229px;
+    }
+    .main-servi {
+        position: relative;
+    }
+    .main-product__text {
+        padding-bottom: 0px;
+        padding-top: 180px;
+    }
+    .main-about-title {
+        padding-top: 7%;
+        font: Bold Italic 39px/33px Helvetica Neue;
+    }
+    .main-product-destacado {
+        height: 237vh;
+    }
+}
+
+.woocommerce-message .button {
+    float: right;
+	color: #fff!important;
+}
+.woocommerce-message::before {
+    content: "\e015";
+	color: #8fae1b!important;
+}
+
+.woocommerce-message {
+	border-top-color: #d34946!important;
+}
+.woocommerce-notices-wrapper{
+	margin-top: 77px!important;
+}
+
+.template-btn {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    transition: all ease-in-out .4s;
+}
+
+.template-btn:hover {
+    color: #fff;
+    background-color: #c2335f;
+    transform: translateY(-3px);
+    transition: all ease-in-out .4s;
+}
+
+
+.product-section {
+  padding: 80px 0;
+}
+
+.flex-control-nav .flex-control-thumbs {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.product-details .p-price {
+    font-size: 24px;
+    color: #414141;
+    font-weight: 600;
+    font-family: "Montserrat", serif;
+    margin-bottom: 20px;
+}
+
+.product-details .p-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #414141;
+    margin-bottom: 18px;
+}
+
+.quantity {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+input#coupon_code {
+    margin-top: 1rem;
+}
+input#quantity_5ecd455db899e {
+    margin-top: 1rem;
+}
+.quantity p {
+    float: left;
+    margin-right: 15px;
+    font-weight: 600;
+    color: #414141;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.quantity .pro-qty {
+    width: 94px;
+    height: 36px;
+    border: 1px solid #ddd;
+    padding: 0 15px;
+    border-radius: 5px;
+    float: left;
+}
+
+.quantity .pro-qty input {
+    width: 28px;
+    float: left;
+    border: none;
+    height: 36px;
+    line-height: 40px;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.quantity .pro-qty .qtybtn {
+    width: 15px;
+    display: block;
+    float: left;
+    line-height: 36px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #404040;
+}
+
+.card {
+    border: 0;
+}
+
+.card-header {
+    background-color: #fff;
+    margin-bottom: 0 !important;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+}
+
+.faq-btn {
+    color: #d22647;
+    font-family: "Montserrat", serif;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-btn:hover,
+.faq-btn:focus {
+    text-decoration: none;
+    color: #d22647;
+}
+
+.faq-btn[aria-expanded="true"] i {
+    transform: rotate(-90deg);
+}
+.quantity input{
+	width: 94px!important;
+    height: 36px!important;
+    border: 1px solid #ddd!important;
+    padding: 0 15px!important;
+    border-radius: 5px!important;
+    float: left!important;
+}
+button.single_add_to_cart_button.button.alt{
+	 box-shadow: 5px 5px 5px #00000030!important;
+    border: 0!important;
+    border-radius: 7px!important;
+    background: #D22647 0% 0% no-repeat!important;
+    color: white!important;
+    width: 150px!important;
+    font-family: Bold!important;
+    font-size: 20px!important;
+    font-weight: Helvetica Neue!important;
+}
+
+
+.main-news-title-detallado {
+    text-align: center;
+	font-family: Helvetica Neue;
+	font-size: 30px;
+    color: #D22647;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-top: 0px;
+}
+
+h2.woocommerce-loop-product__title{
+	padding-top: 15px!important;
+  
+    color: #7C7C7C!important;
+    font-size: 1.3rem!important;
+}
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail{
+	box-shadow: 3px 3px 8px #00000036!important;
+    width: 92%!important;
+    height: 40vh!important;
+}
+span.woocommerce-Price-amount.amount{
+  
+    justify-content: center!important;
+    font-size: 1.1rem!important;
+    margin-bottom: 15px!important;
+	text-decoration: none!important;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+	text-decoration: none!important;
+	box-shadow: 5px 5px 5px #00000030!important;
+    border: 0!important;
+    border-radius: 7px!important;
+    background: #D22647 0% 0% no-repeat!important;
+    color: white!important;
+    width: 151px!important;
+    font-family: Bold!important;
+    font-size: 20px!important;
+	padding: 5px!important;
+	    margin-left: 15px;
+}
+
+
+li.product.type-product.post-14.status-publish.first.instock.product_cat-rosas.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple{
+	list-style:none!important;
+}
+p.woocommerce-info{
+	border-top-color: #8fae1b!important;
+}
+a:hover{
+	text-decoration: none!important ;
+}
+
+.woocommerce-info::before {
+	
+		color: #8fae1b!important;
+	
+}
+.checkout_coupon button {
+    background: #D22647!important;
+    color: #fff!important;
+}

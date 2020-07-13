@@ -1,0 +1,207 @@
+body,html{
+    margin: 0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background-color: #fff;
+  }
+  #fixed-top{
+    position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+  }
+  .nav-color{
+    background-color: #D22647 ;
+    height: 14px;
+    width: 100%;
+    opacity: 1;
+    
+   
+  }
+  .navbar-main{
+    border-radius: 0px 0px 50px 50px;
+    height: 100px;
+  }
+  
+    .navbar-nav{
+      margin-top: 25px;
+      margin-right: 130px;
+  }
+   a{
+   margin-left: 40px;
+   color: rgba(0,0,0,.5);
+  text-decoration: none;
+  background-color: transparent;
+}
+  
+  .main-logo{
+    box-sizing: border-box;
+    margin-left: 40px;
+  }
+  .main-logo-item img{
+    width: 90px;
+    height: 90px;
+  }
+   
+  .nav-item{
+    margin-left: 50px;
+  }
+  .main-image{
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+    color: white;
+    display: grid;
+    text-align: -webkit-center;
+    padding-bottom: 5%;
+    background: transparent url('../public/image/bannerarreglos.jpg') 0% 0% no-repeat padding-box;
+  }
+  
+  .img_main_banner{
+    width: 100%;
+    z-index: -1;
+      
+      }
+      h1{
+        text-align: -webkit-center;
+        padding-top: 190px;
+        color: #fff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .banner-fonts{
+    font-size: 70px;
+    font-family: none;
+    font-style: oblique;
+    margin-top: 90px;
+  }
+  .servicio{
+    margin-top: -98px;
+    margin-bottom: -55px;
+  }
+  .row{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 2rem;
+    padding: 0px 6rem;
+    margin-top: 50px;
+  }
+  .main_service{
+    margin-top: -98px;
+    margin-bottom: -55px;
+  }
+  .service-content{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Regular;
+    font-size: 25px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+   .servicio-container{
+    margin-left: 90px;
+    margin-right: 120px;
+     
+   }
+  .servicio-d{
+    background:  #D22647 ;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 12px #C1BBBB;
+    padding: 0px 6rem;
+    grid-template-columns: repeat(3, 1fr);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  }
+  .servicio-green{
+    background:  green ;
+    width: 250px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 12px #C1BBBB;
+    padding: 0px 6rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .icons{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: -80px;
+    margin-right: 0px;
+  }
+  .main-products{
+    background-color: #ded2d7;
+    width: 100%;
+    height: 112vh;
+    background: transparent url('') 0% 0% no-repeat padding-box;
+    
+  }
+  .main-product-text{
+    padding-top: 90px;
+    padding-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+  }
+  .main-product-title p{
+    margin: 0px;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+}
+.main-product-subtitle p{
+  text-align: center;
+    font-family: Autery;
+    font-size: 45px;
+    font-weight: Regular;
+    letter-spacing: 0px;
+    color: #D22647;
+}
+p{
+  margin-top: 0;
+    margin-bottom: 1rem;
+}
+.main-product-grid{
+  display: grid;
+  gap: 1rem;
+  padding: 0px 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.main-product-grid img{
+  box-shadow: 3px 3px 8px #00000036;
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 40px;
+}
+  #footer{
+    background:  #D22647 ;
+    padding: 10em;
+    
+  }
+  .image-phone,.image-imail,.image-location{
+    height: 20px;
+  
+  }
+
+  p{
+    color: white;
+  }
